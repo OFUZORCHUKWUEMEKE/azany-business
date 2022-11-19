@@ -21,7 +21,7 @@ const Contact = () => {
                     <p className="">Any question or remarks? Just write us a message!</p>
                 </div>
 
-                <div className="shadow-md md:flex items-center my-[8%] gap-10">
+                <div className="shadow-md md:flex items-center my-[5%] gap-10">
                     <div className="bg-[#0063E5] text-white pl-5 font-light space-y-24 pt-5 rounded-xl xl:w-[50%]">
                         <div className="space-y-2">
                             <h1 className="font-semibold text-2xl">Contact Information</h1>

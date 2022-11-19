@@ -4,7 +4,7 @@ import { Input } from "@material-tailwind/react";
 const HowItWorks = () => {
     return (
         <div className='my-10'>
-            <div className="m-auto w-[85%] bg-[#fff9fd] md:flex px-10 py-20 items-center gap-[10%] ">
+            <div className="m-auto w-[85%] bg-[#fff9fd] md:flex md:space-y-0 space-y-5  px-10 py-20 items-center gap-[10%] ">
                 <div className="space-y-5">
                     <h1 className="font-bold text-2xl">Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit.!</h1>
                     <div className="flex items-center ">
@@ -18,7 +18,7 @@ const HowItWorks = () => {
 
                     <div className="">
                         <div className="">
-                            <div className="grid grid-cols-3 gap-5">
+                            <div className="md:grid grid-cols-3 gap-5 space-y-5 md:space-y-0">
                                 <li className="list-style">Lorem Ipsum dolor</li>
                                 <li className="list-style">Lorem Ipsum dolor</li>
                                 <li className="list-style">Lorem Ipsum dolor</li>
@@ -30,8 +30,8 @@ const HowItWorks = () => {
                     </div>
                 </div>
                 <div className="flex items-center">
-                    <img src="" alt="" className="blue-background absolute" />
-                    <div className="girl relative top-14 left-16"></div>
+                    <div className=" h-[420.47px] w-[329.91px] border-none rounded-xl bg-[#1b7cfc] absolute" />
+                    <div className="girl  relative top-10 left-16"></div>
                 </div>
             </div>
         </div>

@@ -31,10 +31,6 @@ const SignUp = () => {
                             <div className=''>
                                 <TextField label="Enter Password" id="outlined-size-normal" className='w-[100%] bg-gray-100' />
                             </div>
-                            {/* <div className="">
-                                <Input label="Input With Icon" icon={<AiOutlineEyeInvisible/>} className="bg-gray-100 py-2" />
-                            </div> */}
-
                             <div>
                                 <TextField label="Confirm Password" id="outlined-size-normal" className='w-[100%] bg-gray-100' />
                             </div>
@@ -44,7 +40,7 @@ const SignUp = () => {
                             </div>
                         </div>
                         <div className="py-5">
-                            <button className='secondary-button my-3 py-4 bg-blue-500 w-[100%]'>Submit</button>
+                            <button className='secondary-button my-3 py- bg-blue-500 w-[100%]'>Submit</button>
                             <p className="text-center py-2">Already have an account?<span className='font-semibold text-[#1B7CFC]'><Link to="emailVerification"> Log In</Link></span></p>
                         </div>
                     </form>

@@ -10,8 +10,8 @@ const Faq = () => {
     return (
         <div>
             <Navbar />
-            <div className="bg-[#000D1F]">
-                <div className="m-auto w-[85%] flex flex-col text-center justify-center items-center h-[80vh] space-y-8 text-white">
+            <div className="bg-[#000D1F] h-[100vh]">
+                <div className="m-auto w-[85%] flex flex-col text-center justify-center items-center h-[100vh] space-y-8 text-white">
                     <h1 className="text-6xl font-semibold">Ask us anything</h1>
                     <p className="text-sm">Have any questions? We're here to assist you.</p>
                     <div className="search contain flex items-center md:w-[30%]">

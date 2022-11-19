@@ -10,6 +10,7 @@ import BusinessVerification from './Auth/BuisnessVerification';
 import Faq from './pages/Faq';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
+import ListOfServices from './pages/ListOfServices';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +22,7 @@ root.render(
         <Route path='/emailVerification' element={<EmailVerification/>} />
         <Route path='/businessVerification' element={<BusinessVerification/>} />
         <Route path='/faq' element= {<Faq/>} />
+        <Route path='/listofservices' element= {<ListOfServices/>} />
         <Route path='/contact' element= {<Contact/>} />
         <Route path='/blog' element= {<Blog/>} />
       </Routes>

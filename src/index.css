@@ -15,6 +15,9 @@
   .hover{
       @apply bg-[#1b7cfc] text-white rounded-xl
   }
+  .text-blue{
+    @apply text-[#1b7cfc]
+  }
   .list-style{
     @apply hover:hover px-4 py-16  list-decimal text-center justify-center rounded-xl bg-white
   }
@@ -105,6 +108,29 @@ code {
   height: 180px;
   width: 100%;
   background-image: url("../public/images/blog3.png");
+  background-size: cover;
+}
+
+/* Blogs */
+.bicycle{
+  background-image: url("/public/images/Bicycle.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.blog5{
+  height: 30vh;
+  background-image: url("../public/images/blog4.png");
+  background-size: cover;
+}
+.blog4{
+  height: 30vh;
+  background-image: url("../public/images/blog5.png");
+  background-size: cover;
+}
+.blog6{
+  height: 30vh;
+  background-image: url("../public/images/blog6.png");
   background-size: cover;
 }
 
