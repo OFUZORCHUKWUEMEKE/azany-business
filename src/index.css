@@ -16,7 +16,7 @@
       @apply bg-[#1b7cfc] text-white rounded-xl
   }
   .list-style{
-    @apply hover:hover md:h-[141px] md:w-[170px] h-[141px] flex flex-col text-center justify-center rounded-xl bg-white
+    @apply hover:hover px-4 py-16  list-decimal text-center justify-center rounded-xl bg-white
   }
 }
 
@@ -33,6 +33,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Header transition */
 .transition{
   height: 100vh;
   width: 100%;
@@ -63,18 +65,29 @@ code {
   }
 }
 
+/* How it works */
 .girl{
-  height: 428.47px;
+  height: 420.47px;
   width: 329.91px;
   background-image: url("../public/images/Girl\ laughing.png");
   background-size: cover;
 }
+.blue-background{
+  background-image: url("../public/images/blue\ background.png");
+  height: 420.47px;
+  width: 329.91px;
+  background-repeat: no-repeat;
+}
+
+/* Find sites */
 .iphone{
   height: 70vh;
   width: 100%;
   background-image: url("../public/images/iphone\ \(2\).png");
   background-size: cover;
 }
+
+/* Banner */
 .blog1{
   height: 180px;
   width: 100%;
@@ -94,4 +107,7 @@ code {
   background-image: url("../public/images/blog3.png");
   background-size: cover;
 }
+
+
+
 

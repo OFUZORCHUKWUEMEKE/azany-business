@@ -1,50 +1,55 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Checkbox from '@mui/material/Checkbox';
+import { Link } from "react-router-dom";
+import { Input } from "@material-tailwind/react";
+import {AiOutlineEyeInvisible} from "react-icons/ai"
 
 const SignUp = () => {
     const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
     return (
-        <div className='h-[100vh] overflow-x-hidden'>
+        <div className='overflow-x-hidden'>
             <Navbar />
             <div className='w-full flex justify-center'>
-                <div className="mx-auto  text-sm">
-                    <div className="space-y-2 my-10">
-                        <h1 className="text-2xl font-bold">Create Account</h1>
+                <div className="mx-auto  text-sm py-12">
+                    <div className="space-y-2 pb-8">
+                        <h1 className="text-3xl font-bold">Create Account</h1>
                         <p className="">Create an account to partner with Azany Business</p>
                     </div>
                     <form action="" className="">
                         <div className="space-y-5">
                             <div>
-                                <TextField label="First Name" id="outlined-size-normal" className='w-[100%]  text-sm' />
+                                <TextField label="First Name" id="outlined-size-normal" className='w-[100%] bg-gray-100 text-sm' />
                             </div>
                             <div>
-                                <TextField label="Last Name" id="outlined-size-normal" className='w-[100%] ' />
+                                <TextField label="Last Name" id="outlined-size-normal" className='w-[100%] bg-gray-100' />
                             </div>
                             <div>
-                                <TextField label="Email address" id="outlined-size-normal" className='w-[100%] ' />
+                                <TextField label="Email address" id="outlined-size-normal" className='w-[100%] bg-gray-100' />
                             </div>
                             <div className=''>
-                                <TextField label="Enter Password" id="outlined-size-normal" className='w-[100%] ' />
+                                <TextField label="Enter Password" id="outlined-size-normal" className='w-[100%] bg-gray-100' />
                             </div>
+                            {/* <div className="">
+                                <Input label="Input With Icon" icon={<AiOutlineEyeInvisible/>} className="bg-gray-100 py-2" />
+                            </div> */}
+
                             <div>
-                                <TextField label="Confirm Password" id="outlined-size-normal" className='w-[100%] ' />
+                                <TextField label="Confirm Password" id="outlined-size-normal" className='w-[100%] bg-gray-100' />
                             </div>
                             <div className="flex items-center text-sm ">
                                 <Checkbox {...label} />
-                                <p className="">By clicking ‘sign up’ I agree to <span className='text-[#1B7CFC]'>Terms & Conditions</span></p>
+                                <p className="">By clicking ‘sign up’ I agree to <span className='font-semibold text-[#1B7CFC]'>Terms & Conditions</span></p>
                             </div>
                         </div>
-                        <button className='secondary-button my-3 bg-blue-500 w-[100%]'>Submit</button>
-                
-                        <p className="text-center py-2">Already have an account?<span className='text-[#1B7CFC]'><a href="emailVerification"> Log In</a></span></p>
-
+                        <div className="py-5">
+                            <button className='secondary-button my-3 py-4 bg-blue-500 w-[100%]'>Submit</button>
+                            <p className="text-center py-2">Already have an account?<span className='font-semibold text-[#1B7CFC]'><Link to="emailVerification"> Log In</Link></span></p>
+                        </div>
                     </form>
                 </div>
             </div>
-
         </div>
     );
 };
