@@ -134,6 +134,89 @@ code {
   background-size: cover;
 }
 
+.aviation{
+  width: 180px;
+  height: 160px;
+  background-image: url("../public/images/Ticketting1.png");
+  background-size: cover;
+}
+.aviation2{
+  width: 180px;
+  height: 160px;
+  background-image: url("../public/images/Ticketting2.png");
+  background-size: cover;
+}
+.aviation3{
+  width: 180px;
+  height: 160px;
+  background-image: url("../public/images/Ticketting3.png");
+  background-size: cover;
+}
+
+.aviation-big{
+  width: 501px;
+  height: 350px;
+  background-image: url("../public/images/Ticketting1.png");
+  background-size: cover;
+}
+.electricity-big{
+  width: 501px;
+  height: 350px;
+  background-image: url("../public/images/Electricity.png");
+  background-size: cover;
+}
+
+
+.electricity{
+  width: 180px;
+  height: 160px;
+  background-image: url("../public/images/Electricity.png");
+  background-size: cover;
+}
+.hospital{
+  width: 180px;
+  height: 160px;
+  background-image: url("../public/images/Hospital.png");
+  background-size: cover;
+}
+.internet{
+  width: 180px;
+  height: 160px;
+  background-image: url("../public/images/Internet.png");
+  background-size: cover;
+}
+.pharmacy{
+  width: 180px;
+  height: 160px;
+  background-image: url("../public/images/Pharmacy.png");
+  background-size: cover;
+}
+.resturants{
+  width: 180px;
+  height: 160px;
+  background-image: url("../public/images/Restaurants.png");
+  background-size: cover;
+}
+.school{
+  width: 180px;
+  height: 160px;
+  background-image: url("../public/images/School.png");
+  background-size: cover;
+}
+.shopping{
+  width: 180px;
+  height: 160px;
+  background-image: url("../public/images/Shopping.png");
+  background-size: cover;
+}
+.tv{
+  width: 180px;
+  height: 160px;
+  background-image: url("../public/images/Tv.png");
+  background-size: cover;
+}
+
+
 
 
 

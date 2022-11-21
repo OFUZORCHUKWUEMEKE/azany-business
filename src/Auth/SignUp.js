@@ -4,7 +4,9 @@ import TextField from '@mui/material/TextField';
 import Checkbox from '@mui/material/Checkbox';
 import { Link } from "react-router-dom";
 import { Input } from "@material-tailwind/react";
-import {AiOutlineEyeInvisible} from "react-icons/ai"
+import { AiOutlineEyeInvisible } from "react-icons/ai";
+import InputAdornment from "@mui/material/InputAdornment";
+import IconButton from '@mui/material/IconButton';
 
 const SignUp = () => {
     const label = { inputProps: { 'aria-label': 'Checkbox demo' } };

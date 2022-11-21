@@ -65,23 +65,23 @@ const Blog = () => {
                     </div>
                 </div>
                 <div className="comments my-8">
-                    <h1 className="text-2xl pt-5 font-semibold">Comments</h1>
+                    <h1 className="text-2xl pt-5 font-semibold ">Comments</h1>
                     <div className="md:w-[60%]">
                         <div className="flex items-center gap-5 my-5">
                             <div className="">
-                                <div className=" text-gray-500 hover:bg-[#1b7cfc] hover:text-white rounded border border-gray-500 px-5 py-1">
+                                <div className=" text-gray-500 rounded border border-gray-500 px-5 py-1">
                                     <p className="">Username</p>
                                 </div>
                             </div>
                             <div className="w-[100%]">
-                                <div className=" text-gray-500 hover:bg-[#1b7cfc] hover:text-white rounded border border-gray-500 px-5 py-1">
+                                <div className=" text-gray-500 rounded border border-gray-500 px-5 py-1">
                                     <p className="">Your Comment...</p>
                                 </div>
                             </div>
                             <div className="">
-                                <div className=" text-gray-500 hover:bg-[#1b7cfc] hover:text-white rounded border border-gray-500 px-5 py-1">
+                                <button className=" text-white bg-[#1b7cfc] hover:bg-[#1b7cfc]  rounded border border-gray-500 px-5 py-1">
                                     <p className="">Comment</p>
-                                </div>
+                                </button>
                             </div>
                         </div>
                         <div className="comment-box space-y-5">

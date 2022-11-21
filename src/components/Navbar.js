@@ -31,7 +31,7 @@ const Navbar = () => {
                         <Link to="/contact">
                             <p className="hover:hover px-3 py-2">Contact</p>
                         </Link>
-                        <Link to="/" className="flex items-center ">
+                        <Link to="/emailVerification" className="flex items-center ">
                             <p className="hover:hover px-3 py-2">EN</p>
                             <div className="flag"></div>
                         </Link>
@@ -39,7 +39,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="gap-5 md:flex hidden">
-                    <Link to="/">
+                    <Link to="/businessVerification">
                         <p className="hover:hover px-3 py-2">Login</p>
                     </Link>
                     <Link to="/signup">
